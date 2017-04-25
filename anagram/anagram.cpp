@@ -2,6 +2,10 @@
 #include <fstream>
 #include <string>
 
+/*	All good programmers document their code. Especially those
+	in Carthage College computer science courses.
+*/
+
 using namespace std;
 
 int main(int argc, char * argv[])
@@ -29,7 +33,7 @@ int main(int argc, char * argv[])
 							continue;
 						}
 					}
-					// If we get here, c is an alphabetic char possibly upper case.
+					// If we get here, dude, c is an alphabetic char possibly upper case.
 					c = tolower(c);
 					// Now we are sure c is a lower case alphabetic character.
 					letter_counters[c - 'a'] += delta;
